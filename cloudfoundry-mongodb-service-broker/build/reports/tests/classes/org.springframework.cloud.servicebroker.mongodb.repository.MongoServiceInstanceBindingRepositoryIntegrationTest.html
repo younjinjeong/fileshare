@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.cloud.servicebroker.mongodb.repository.html">org.springframework.cloud.servicebroker.mongodb.repository</a> &gt; MongoServiceInstanceBindingRepositoryIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.124s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">bindingDeletedSuccessfully</td>
+<td>0.100s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">bindingInsertedSuccessfully</td>
+<td>0.024s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>13:50:02.861 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.874 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:50:02.877 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:50:02.883 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+13:50:02.897 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@323048d2 declaringClass = 'org.springframework.cloud.servicebroker.mongodb.IntegrationTestBase', classes = '{class org.springframework.cloud.servicebroker.mongodb.Application}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+13:50:02.902 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [org.springframework.cloud.servicebroker.mongodb.IntegrationTestBase]: class path resource [org/springframework/cloud/servicebroker/mongodb/IntegrationTestBase-context.xml] does not exist
+13:50:02.903 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [org.springframework.cloud.servicebroker.mongodb.IntegrationTestBase]: class path resource [org/springframework/cloud/servicebroker/mongodb/IntegrationTestBaseContext.groovy] does not exist
+13:50:02.903 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [org.springframework.cloud.servicebroker.mongodb.IntegrationTestBase]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:50:02.904 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.907 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]: using defaults.
+13:50:02.912 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:50:02.931 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1a2bd787, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7f188767, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2533a35b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@75c000f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@438f788c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7817ec25]
+13:50:02.932 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.933 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.935 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.935 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.935 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.936 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.937 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1a9d1019 testClass = MongoServiceInstanceBindingRepositoryIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@61b4705e testClass = MongoServiceInstanceBindingRepositoryIntegrationTest, locations = '{}', classes = '{class org.springframework.cloud.servicebroker.mongodb.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+13:50:02.937 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.937 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest]
+13:50:02.939 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@1a9d1019 testClass = MongoServiceInstanceBindingRepositoryIntegrationTest, testInstance = org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepositoryIntegrationTest@6d954a1b, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@61b4705e testClass = MongoServiceInstanceBindingRepositoryIntegrationTest, locations = '{}', classes = '{class org.springframework.cloud.servicebroker.mongodb.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+13:50:02.981 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:50:02.982 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:50:02.982 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:50:02.983 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.1.RELEASE)
+
+2016-10-24 13:50:03.221  INFO 12792 --- [    Test worker] InstanceBindingRepositoryIntegrationTest : Starting MongoServiceInstanceBindingRepositoryIntegrationTest on dyn-11-116.boulder.pivotallabs.com with PID 12792 (/Users/pivotal/workspace/cloudfoundry-mongodb-service-broker/build/classes/test started by pivotal in /Users/pivotal/workspace/cloudfoundry-mongodb-service-broker)
+2016-10-24 13:50:03.221  INFO 12792 --- [    Test worker] InstanceBindingRepositoryIntegrationTest : No active profile set, falling back to default profiles: default
+2016-10-24 13:50:03.258  INFO 12792 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@33a0e0a: startup date [Mon Oct 24 13:50:03 MDT 2016]; root of context hierarchy
+2016-10-24 13:50:04.323  INFO 12792 --- [    Test worker] InstanceBindingRepositoryIntegrationTest : Started MongoServiceInstanceBindingRepositoryIntegrationTest in 1.338 seconds (JVM running for 2.039)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 1.11</a> at Oct 24, 2016 1:50:05 PM</p>
+</div>
+</div>
+</body>
